@@ -1,0 +1,52 @@
+body {
+  height: 100%;
+  width: 100%;
+  background-color: #a8d7ac;
+}
+.Myname {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  margin: 25px;
+}
+.img-profile {
+  margin-left: 25px;
+  margin-top: 25px;
+  /*top-left corner, top-right corner,  bottom-right corner, and to bottom-left corner*/
+  border-radius: 30% 20% 50% 40%;
+}
+.container {
+  display: flex;
+  justify-content: center;
+}
+.container-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+}
+.subtitle-name {
+  font-size: 16px;
+}
+.container-about {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.44);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(3.9px);
+  -webkit-backdrop-filter: blur(3.9px);
+  border: 1px solid rgba(255, 255, 255, 1);
+}
+.container-card {
+  display: flex;
+}
+.card {
+  background-color: #ddf9df;
+  margin: 30px;
+  border-radius: 16px;
+}
